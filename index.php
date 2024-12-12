@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register & Login</title>
+    <title>MarkAPP</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="head"><p class="hh1">MarkAPP</p></div>
     <div class="container" id="signup" style="display:none;">
       <h1 class="form-title">Register</h1>
       <form method="post" action="register.php">
@@ -55,9 +56,6 @@
               <input type="password" name="password" id="password" placeholder="Password" required>
               <label for="password">Password</label>
           </div>
-          <p class="recover">
-            <a href="#">Recover Password</a>
-          </p>
          <input type="submit" class="btn" value="Sign In" name="signIn">
         </form>
         <p class="or">
@@ -67,6 +65,13 @@
           <p>Don't have account yet?</p>
           <button id="signUpButton">Sign Up</button>
         </div>
+      </div>
+      <div class="foot">
+        <p>
+          Akash
+        </p>
+        <p>Amandeep</p>
+        <p>Dev</p>
       </div>
       <script src="script.js"></script>
 </body>
